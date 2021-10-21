@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJC University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a0c05c1dd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <section class="header">
+<nav>
+    <a href="index.html"><img src="img/logo.png"></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fas fa-chevron-circle-right" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">COURSE</a></li>
+        </ul>
+    </div>
+    <i class="fas fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>Worlds Biggest University</h1>
+    <p>Education is celebrated as Festivals.<br>Always education prefer first and quality education is provided. </p>
+<a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+ </section>
+
+ 
+
+<section class="footer">
+    <div class="about-us">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi quas consequatur corrupti. Debitis numquam ea aperiam, beatae suscipit quam voluptatibus repudiandae nam fugiat maxime reprehenderit praesentium placeat aut rem.</p>
+</div>
+    <div class="about-us">
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-youtube" aria-hidden="true"></i>
+</div>
+<h5>@Copywright Reserved since 2020</h5>
+</section>
+
+
+
+
+
+
+ <!------Javascript For Toogle Menu------->
+<script>
+
+var navlinks = document.getElementById("navlinks");
+
+function showMenu(){
+    navlinks.style.right = "0";
+}
+function hideMenu(){
+    navlinks.style.right = "-200px";
+}
+</script>
+
+
+
+</body>
+</html>
